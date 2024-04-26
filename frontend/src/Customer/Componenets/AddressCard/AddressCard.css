@@ -1,0 +1,52 @@
+/* AddressSelection.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .address-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .address-list li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .address-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .address-list .selected {
+    background-color: #e0e0e0;
+  }
+  
+  .address-list .selected:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .address-list .selected p {
+    font-weight: bold;
+  }
+  .address-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .address-card.selected {
+    background-color: #f0f0f0;
+  }
+  .ml-custom {
+    margin-left: 71px;
+  }
+  
+  .mt-custom {
+    margin-top: 10px; /* You can adjust the value as needed */
+  }
